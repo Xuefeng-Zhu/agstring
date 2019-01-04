@@ -314,5 +314,5 @@ func Map(ls []string, funcs ...func(string) string) []string {
 		}
 		out[i] = tmp
 	}
-	return out
+	return outds
 }
